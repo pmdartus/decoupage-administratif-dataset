@@ -2,6 +2,9 @@ name: Release
 
 on: workflow_dispatch
 
+permissions:
+  contents: write
+
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -22,10 +25,9 @@ jobs:
       with:
         name: dataset
         path: data/
-    - name: Generate release
-      uses: ncipollo/release-action@v1
+    - name: Publish
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        artifacts: "data/*"
-        body: "Generated dataset"
-        tag: "2023-12-29"
-        draft: true
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: dataset
+        publish_dir: data/
