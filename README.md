@@ -1,15 +1,15 @@
 # Dataset consolidé du découpage administratif
 
-Dataset des communes, départements et région de France. L'ensemble des datasets se trouvent sur la branch [`dataset`](/pmdartus/decoupage-administratif-dataset/tree/dataset):
+Dataset des communes, départements et région de France. L'ensemble des datasets se trouvent sur la branch [`dataset`](https://github.com/pmdartus/decoupage-administratif-dataset/tree/dataset):
 
-**[`regions.csv`](/pmdartus/decoupage-administratif-dataset/tree/dataset/regions.csv):**
+**[`regions.csv`](https://github.com/pmdartus/decoupage-administratif-dataset/tree/dataset/regions.csv):**
 
 | Colonne | Type   | Description               |
 | ------- | ------ | ------------------------- |
 | `nom`   | string | Nom de la région          |
 | `code`  | string | Code (INSEE) de la région |
 
-**[`departements.csv`](/pmdartus/decoupage-administratif-dataset/tree/dataset/departements.csv):**
+**[`departements.csv`](https://github.com/pmdartus/decoupage-administratif-dataset/tree/dataset/departements.csv):**
 
 | Colonne       | Type   | Description                 |
 | ------------- | ------ | --------------------------- |
@@ -18,7 +18,7 @@ Dataset des communes, départements et région de France. L'ensemble des dataset
 | `region_nom`  | string | Nom de la région            |
 | `region_code` | string | Code (INSEE) de la région   |
 
-**[`communes.csv`](/pmdartus/decoupage-administratif-dataset/tree/dataset/communes.csv):**
+**[`communes.csv`](https://github.com/pmdartus/decoupage-administratif-dataset/tree/dataset/communes.csv):**
 
 | Colonne            | Type   | Description                                              |
 | ------------------ | ------ | -------------------------------------------------------- |
@@ -32,7 +32,7 @@ Dataset des communes, départements et région de France. L'ensemble des dataset
 | `region_nom`       | string | Nom de la région                                         |
 | `region_code`      | string | Code (INSEE) de la région                                |
 
-**[`communes-expanded.csv`](/pmdartus/decoupage-administratif-dataset/tree/dataset/communes-expanded.csv):**
+**[`communes-expanded.csv`](https://github.com/pmdartus/decoupage-administratif-dataset/tree/dataset/communes-expanded.csv):**
 
 | Colonne            | Type   | Description                       |
 | ------------------ | ------ | --------------------------------- |
