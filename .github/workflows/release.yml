@@ -1,12 +1,10 @@
-name: Run
+name: Release
 
 on: workflow_dispatch
 
 jobs:
   run:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python
@@ -29,4 +27,5 @@ jobs:
       with:
         artifacts: "data/*"
         body: "Generated dataset"
+        tag: "2023-12-29"
         draft: true
